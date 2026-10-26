@@ -18,3 +18,8 @@ npx expo run:ios
 3. The back button and "More" are gone.
 
 Versions: Expo SDK 58, expo-router 58.0.26, react-native 0.88.0, react-native-screens 4.30.0.
+
+## Recordings (iPhone 18 Pro simulator, iOS 27.0)
+
+- [Before](media/before.mp4): react-native-screens 4.30.0 — after the cancelled drag, the back button and "More" are gone.
+- [After](media/after.mp4): with the fix from software-mansion/react-native-screens (branch `dongriDK:fix/zoom-cancel-navbar-alpha`) — both stay.
